@@ -12,7 +12,7 @@ import LibraryFiles.UtilityClass;
 import static LibraryFiles.UtilityClass.getExcelData;
 import Wobb_ai_SignUP_Module_Page.Wobb_ai_Sign_Up_Page;
 
-public class SignPageTest extends BaseClass
+public class Sign_Up_PageTest extends BaseClass
 {
 	String TestCaseId;
 	Wobb_ai_Sign_Up_Page sign;

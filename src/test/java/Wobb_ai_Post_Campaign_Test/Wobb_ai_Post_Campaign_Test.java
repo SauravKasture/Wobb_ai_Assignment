@@ -3,6 +3,7 @@ package Wobb_ai_Post_Campaign_Test;
 import java.io.IOException;
 
 import org.apache.poi.EncryptedDocumentException;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Test;
@@ -96,6 +97,17 @@ public class Wobb_ai_Post_Campaign_Test extends BaseClass
 		pcp.click_on_Post_Campaign_button();
 		
 	
+	}
+	
+	@AfterClass
+	public void closeApp() throws InterruptedException
+	{
+		sgin.click_on_profile(driver);
+		Thread.sleep(2000);
+		sgin.click_on_logout_button();
+		Thread.sleep(2000);
+		sgin.click_on_logout_from_all_devices_button();
+		closeBroswer();
 	}
 	
 }

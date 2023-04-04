@@ -38,5 +38,6 @@ public class Wobb_ai_Sign_in_Test extends BaseClass
 		login.click_on_logout_button();
 		Thread.sleep(2000);
 		login.click_on_logout_from_all_devices_button();
+		closeBroswer();
 	}
 }
