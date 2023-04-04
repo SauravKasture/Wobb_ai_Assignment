@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-04-04T22:42:34 IST" name="Default suite" finished-at="2023-04-04T22:42:55 IST" duration-ms="21884">
+    <groups>
+    </groups>
+    <test started-at="2023-04-04T22:42:34 IST" name="Default test" finished-at="2023-04-04T22:42:55 IST" duration-ms="21884">
+      <class name="Wobb_ai_Sign_in_Test.Wobb_ai_Sign_in_Test">
+        <test-method is-config="true" signature="openApplication()[pri:0, instance:Wobb_ai_Sign_in_Test.Wobb_ai_Sign_in_Test@15bb5034]" started-at="2023-04-04T22:42:34 IST" name="openApplication" finished-at="2023-04-04T22:42:48 IST" duration-ms="14566" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApplication -->
+        <test-method signature="loginToApplication()[pri:0, instance:Wobb_ai_Sign_in_Test.Wobb_ai_Sign_in_Test@15bb5034]" started-at="2023-04-04T22:42:48 IST" name="loginToApplication" finished-at="2023-04-04T22:42:55 IST" duration-ms="7234" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToApplication -->
+      </class> <!-- Wobb_ai_Sign_in_Test.Wobb_ai_Sign_in_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
