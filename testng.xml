@@ -8,7 +8,7 @@
     <classes>
       <class name="Wobb_ai_Post_Campaign_Test.Wobb_ai_Post_Campaign_Test"/>
       <class name="Wobb_ai_Sign_in_Test.Wobb_ai_Sign_in_Test"/>
-      <class name="Wobb_ai_SignUp_Page_Test.SignPageTest"/>
+   	 <class name="Wobb_ai_SignUp_Page_Test.Sign_Up_PageTest"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

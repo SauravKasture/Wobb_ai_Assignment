@@ -5,33 +5,34 @@
 	<groupId>Wobb_ai</groupId>
 	<artifactId>Wobb_ai</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<build>
-		<pluginManagement>
-			<plugins>
-				<plugin>
+<build>
+    <pluginManagement>
+    
+  		<plugins>
+  
+  			  <plugin>
+			       <groupId>org.apache.maven.plugins</groupId>
+			       <artifactId>maven-surefire-plugin</artifactId>
+			       <version>3.0.0-M7</version>
+			        <configuration>
+		          	<suiteXmlFiles>
+		          	      		 <suiteXmlFile>testng.xml</suiteXmlFile>
+		           </suiteXmlFiles>
+		          
+		          </configuration>
+			</plugin>
+        <!-- https://maven.apache.org/plugins/maven-resources-plugin/index.html -->
 
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-surefire-plugin</artifactId>
-					<version>3.0.0-M7</version>
-					<configuration>
-						<suiteXmlFiles>
-							<suiteXmlFile>testng.xml</suiteXmlFile>
-						</suiteXmlFiles>
-
-					</configuration>
-				</plugin>
-
-
-
-				<plugin>
-					<groupId>org.apache.maven.plugins</groupId>
-					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.10.1</version>
-				</plugin>
-
-			</plugins>
-		</pluginManagement>
-	</build>
+		 	 <plugin>
+		          <groupId>org.apache.maven.plugins</groupId>
+		          <artifactId>maven-compiler-plugin</artifactId>
+		          <version>3.10.1</version>
+		      </plugin>
+        
+      </plugins>
+  
+ 	 </pluginManagement>
+ </build>
 	<dependencies>
 		<!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
 		<dependency>
@@ -63,13 +64,22 @@
 			<artifactId>log4j-api</artifactId>
 			<version>2.20.0</version>
 		</dependency>
-		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
-		<dependency>
-			<groupId>org.testng</groupId>
-			<artifactId>testng</artifactId>
-			<version>7.7.1</version>
-		
-		</dependency>
+
+<dependency>
+    <groupId>org.testng</groupId>
+    <artifactId>testng</artifactId>
+    <version>7.6.1</version>
+ <!--     <scope>test</scope> delete this line -->
+</dependency>
+
+
+ <dependency>
+    <groupId>org.projectlombok</groupId>
+    <artifactId>lombok</artifactId>
+    <version>1.18.20</version> <!-- Update to a compatible version of Lombok -->
+    <scope>provided</scope>
+  </dependency>
+
 
 	</dependencies>
 </project>
